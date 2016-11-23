@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%;
+  margin: auto;
+  cursor: context-menu; }
+
+header {
+  background: #ee826c;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1000; }
+  header .logo {
+    float: left; }
+    header .logo .img_logo {
+      height: auto;
+      width: 75%;
+      display: block;
+      margin-top: 20px;
+      margin-left: 20%;
+      cursor: context-menu; }
+  header nav {
+    float: right; }
+    header nav .navegador li {
+      list-style: none;
+      display: inline-block;
+      padding: 35px; }
+      header nav .navegador li a {
+        color: #fff;
+        font-size: 3em;
+        text-decoration: none;
+        font-family: "Roboto Slab", serif;
+        cursor: context-menu; }
+      header nav .navegador li:hover {
+        background: #f08c6c; }
+
+.main {
+  width: 100%;
+  max-width: 2000px;
+  font-family: "Roboto Slab", serif;
+  margin: auto; }
+  .main .title .ti {
+    margin-top: 200px;
+    display: block;
+    position: relative;
+    font-size: 3em;
+    color: #00b8a9;
+    text-align: center; }
+  .main .title img {
+    margin: 150px auto;
+    display: block;
+    width: 25%;
+    height: 25%; }
+  .main .title .btn_accion {
+    text-align: center;
+    font-size: 3em;
+    list-style: none;
+    margin-bottom: 10em; }
+    .main .title .btn_accion a {
+      color: #fff;
+      background: #ee826c;
+      text-decoration: none;
+      padding: 30px; }
+      .main .title .btn_accion a:hover {
+        background: #f08c6c; }
+
+.funciones .titulo {
+  text-align: center;
+  color: #00b8a9;
+  font-size: 4em; }
+.funciones .left {
+  float: left;
+  width: 33%;
+  font-family: "Roboto Slab", serif; }
+  .funciones .left h1 {
+    color: #00b8a9;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3em; }
+  .funciones .left p {
+    text-align: adjust;
+    font-size: 2em;
+    margin-top: 2.5em; }
+
+/*# sourceMappingURL=estilos.css.map */

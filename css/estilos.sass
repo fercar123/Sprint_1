@@ -1,0 +1,105 @@
+$font-family: 'Roboto Slab', serif
+$primary: #ee826c
+$hoverprimary: #f08c6c
+$sprimary: #00b8a9
+
+	
+
+*
+	padding: 0
+	margin: 0
+
+body
+	width: 100%
+	margin: auto
+	cursor: context-menu
+
+header
+	background: $primary
+	width: 100%
+	top: 0
+	position: fixed
+	z-index: 1000
+
+	.logo
+		float: left
+		.img_logo
+			height: auto
+			width: 75%
+			display: block
+			margin-top: 20px
+			margin-left: 20%
+			cursor: context-menu
+		
+
+	nav
+		float: right
+
+		.navegador
+			li
+				list-style: none
+				display: inline-block
+				padding: 35px
+				
+				a
+					color: #fff
+					font-size: 3em 
+					text-decoration: none
+					font-family: $font-family
+					cursor: context-menu
+				&:hover
+					background: $hoverprimary
+
+.main
+	width: 100%
+	max-width: 2000px
+	font-family: $font-family
+	margin: auto
+	.title
+		.ti
+			margin-top: 200px
+			display: block
+			position: relative
+			font-size: 3em
+			color: $sprimary
+			text-align: center
+
+		img
+			margin: 150px auto
+			display: block
+			width: 25%
+			height: 25%
+		.btn_accion
+			text-align: center
+			font-size: 3em
+			list-style: none
+			margin-bottom: 10em 
+			a
+				color: #fff
+				background: $primary
+				text-decoration: none
+				padding: 30px
+				&:hover
+					background: $hoverprimary
+.funciones
+
+	.titulo
+		text-align: center
+		color: $sprimary
+		font-size: 4em 
+	.left
+		float: left
+		width: 33%
+		font-family: $font-family
+		h1
+			color: $sprimary
+			font-size: 3em
+			text-align: center
+			margin-top: 3em
+
+		p
+			text-align: adjust
+			font-size: 2em
+			margin-top: 2.5em
+
+
