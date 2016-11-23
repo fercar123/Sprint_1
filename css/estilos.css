@@ -81,8 +81,52 @@ header {
     text-align: center;
     margin-top: 3em; }
   .funciones .left p {
-    text-align: adjust;
+    text-align: justify;
     font-size: 2em;
-    margin-top: 2.5em; }
+    margin-top: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10em; }
+.funciones .center {
+  width: 33%;
+  font-family: "Roboto Slab", serif;
+  display: inline-block; }
+  .funciones .center h1 {
+    color: #00b8a9;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3em; }
+  .funciones .center p {
+    text-align: justify;
+    font-size: 2em;
+    margin-top: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10em; }
+.funciones .right {
+  float: right;
+  width: 33%;
+  font-size: "Roboto Slab", serif; }
+  .funciones .right h1 {
+    color: #00b8a9;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 3em; }
+  .funciones .right p {
+    text-align: justify;
+    font-size: 2em;
+    margin-top: 2.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 10em; }
+
+.footer {
+  background: #ee826c; }
+  .footer p {
+    display: inline-block;
+    font-size: 2.5em;
+    font-family: "Roboto Slab", serif;
+    margin: 2.5em;
+    color: #fff; }
 
 /*# sourceMappingURL=estilos.css.map */
