@@ -2,49 +2,89 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico"> 
 	<title>Educheque</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	
 
 <body>
-	<header>
-		<div class="logo">
-			<a title="img" href="#"><img class="img_logo" src="css/logo.png" alt="img"></a>
-		</div>
-		<nav>
-			<ul class="navegador">
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">¿Cómo funciona nuestra APP?</a></li>
-				<li><a href="#">Contactanos</a></li>
-			</ul>
-		</nav>
-	</header>
-    <div class="main">
-    	<section class="title">
-    		<h1 class="ti">Reduce un 35% en costos de matricula para la Educación Rural.</h1>
-    		<img src="css/Educheque.png">
-    		<li class="btn_accion"><a href="#">Contactanos</a></li>
-    	</section>
-        <div class="funciones">
-        	<h1 class="titulo">¿Cómo funciona nuestra APP?</h1>    
-    			<aside class="left">
-    				<h1>Pago de matricula</h1>
-    				<p>Nuestra plataforma web, funcionara para hacer transaciones de pago para matricula y la mensualidad de los facilitadores.</p>
-    			</aside>
-    		<div class="center">
-    			<h1>Desarrollo de Informes</h1>
-    			<p>Nuestra aplicación ayuda desarrollar informes, daria acceso a un base de datos con los archivos de los alumnos que contiene su historia academica</p>
-    		</div>
-    		<aside class="right">
-    			<h1>Material Didactico</h1>
-    			<p>Nuestra aplicación ayuda con material didactico en línea para mejorar la calidad y distribucción de la educación.</p>
-    		</aside>
-    	</div>
-    	<footer class="footer">
-    		<p>Katia Gomez</p>
-    		<p>+ 1 (510) 828-0142</p>
-    	</footer>
-    </div>
 	
+        <!--Barra de Navegacion-->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container sinmargen">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navega" aria-expanded="false">Menu 
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    
+                </button>
+                <a href="#" class="navbar-brand top-nav"><img src="img/logo.svg" class="logo" alt=""></a>
+                </div>
+            
+            <div class="collapse navbar-collapse" id="navega">
+                <ul class="nav navbar-nav">
+                    <li  class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">¿Cómo funciona nuestra APP?</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                </ul>
+            </div>
+            
+        </div>
+		</nav>
+    <header class="container margin">
+        <div class="row">
+            <div>
+                <img src="img/Fondo.jpg" class="img-responsive fondo" alt="">
+                <div class="col-md-12"><h4 class="text-center ti">Reduce un 35% en costos de matricula para la Educación Rural.</h4></div>
+                
+                <img src="img/Educheque.png" class="img-responsive img center-block">
+                <br>
+                <div class="col-sm-4 col-sm-offset-4 col-md-2 col-md-offset-5">
+                    <a href="#" class="btn btn-lg btn-educheque btn-block"><i class="fa fa-phone" aria-hidden="true"></i><span class=""> Contactanos</span></a>
+                </div>
+            </div>
+            
+        </div>
+	</header>
+    <div class="container-fluid main">
+        <div class="row">
+            
+                <h3 class="text-center">¿Cómo funciona nuestra APP?</h3>  
+                <div class="col-md-4 col-sm-4">
+
+                    <h4 class="text-center">Pago de matricula</h4>
+                    <p class="text-align">Nuestra plataforma web, funcionara para hacer transaciones de pago para matricula y la mensualidad de los facilitadores.</p>
+            </div>
+            
+            <div class="col-md-4 col-sm-4">
+                <h4 class="text-center">Desarrollo de Informes</h4>
+                <p class="text-align">Nuestra aplicación ayuda desarrollar informes, daria acceso a un base de datos con los archivos de los alumnos que contiene su historia academica</p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <h4 class="text-center">Material Didactico</h4>
+                <p class="text-align">Nuestra aplicación ayuda con material didactico en línea para mejorar la calidad y distribucción de la educación.</p>
+            </div>
+        
+            
+        </div>
+    </div>
+    
+    		
+    		
+    
+        
+    	<footer class="row">
+    		<div class="container">
+                <div class="col-md-12">
+                    <p>Katia Gomez</p>
+                <p>+ 1 (510) 828-0142</p>
+                </div>         
+            </div>
+    	</footer>
+  
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

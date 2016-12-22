@@ -1,132 +1,72 @@
-* {
-  padding: 0;
-  margin: 0; }
-
-body {
-  width: 100%;
-  margin: auto;
-  cursor: context-menu; }
+.navbar-inverse {
+  background-color: #ee826c;
+  border-color: #BB3912; }
+  .navbar-inverse .navbar-toggle {
+    border-color: #fff;
+    color: #fff; }
+    .navbar-inverse .navbar-toggle:hover {
+      background: #ee826c !important; }
+    .navbar-inverse .navbar-toggle:focus {
+      background: #ee826c !important; }
+  .navbar-inverse .navbar-collapse {
+    border-color: #fff; }
+  .navbar-inverse .navbar-form {
+    border-color: #fff; }
+  .navbar-inverse .navbar-brand {
+    color: #fff; }
+    .navbar-inverse .navbar-brand:hover {
+      color: #2c3e50; }
+  .navbar-inverse .navbar-nav .active a {
+    background: #EE7824; }
+    .navbar-inverse .navbar-nav .active a:focus {
+      background: #EE7824; }
+    .navbar-inverse .navbar-nav .active a:hover {
+      background: #EE7824; }
+  .navbar-inverse .navbar-nav li a {
+    color: #fff; }
+    .navbar-inverse .navbar-nav li a:hover {
+      color: #2c3e50; }
 
 header {
-  background: #ee826c;
-  width: 100%;
-  top: 0;
-  position: fixed;
-  z-index: 1000; }
-  header .logo {
-    float: left; }
-    header .logo .img_logo {
-      height: auto;
-      width: 75%;
-      display: block;
-      margin-top: 20px;
-      margin-left: 20%;
-      cursor: context-menu; }
-  header nav {
-    float: right; }
-    header nav .navegador li {
-      list-style: none;
-      display: inline-block;
-      padding: 35px; }
-      header nav .navegador li a {
-        color: #fff;
-        font-size: 3em;
-        text-decoration: none;
-        font-family: "Roboto Slab", serif;
-        cursor: context-menu; }
-      header nav .navegador li:hover {
-        background: #f08c6c; }
+  padding-top: 70px; }
+
+.img {
+  width: 20%;
+  height: 20%; }
+
+.ti {
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 0px 0px 4px #ee826c, 0px 0px 30px black; }
 
 .main {
-  width: 100%;
-  max-width: 2000px;
-  font-family: "Roboto Slab", serif;
-  margin: auto; }
-  .main .title .ti {
-    margin-top: 200px;
-    display: block;
-    position: relative;
-    font-size: 3em;
-    color: #00b8a9;
-    text-align: center; }
-  .main .title img {
-    margin: 150px auto;
-    display: block;
-    width: 25%;
-    height: 25%; }
-  .main .title .btn_accion {
-    text-align: center;
-    font-size: 3em;
-    list-style: none;
-    margin-bottom: 10em; }
-    .main .title .btn_accion a {
-      color: #fff;
-      background: #ee826c;
-      text-decoration: none;
-      padding: 30px; }
-      .main .title .btn_accion a:hover {
-        background: #f08c6c; }
+  background: #ee826c;
+  color: #fff; }
 
-.funciones .titulo {
-  text-align: center;
-  color: #00b8a9;
-  font-size: 4em; }
-.funciones .left {
-  float: left;
-  width: 33%;
-  font-family: "Roboto Slab", serif; }
-  .funciones .left h1 {
-    color: #00b8a9;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 3em; }
-  .funciones .left p {
-    text-align: justify;
-    font-size: 2em;
-    margin-top: 2.5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 10em; }
-.funciones .center {
-  width: 33%;
-  font-family: "Roboto Slab", serif;
-  display: inline-block; }
-  .funciones .center h1 {
-    color: #00b8a9;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 3em; }
-  .funciones .center p {
-    text-align: justify;
-    font-size: 2em;
-    margin-top: 2.5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 10em; }
-.funciones .right {
-  float: right;
-  width: 33%;
-  font-size: "Roboto Slab", serif; }
-  .funciones .right h1 {
-    color: #00b8a9;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 3em; }
-  .funciones .right p {
-    text-align: justify;
-    font-size: 2em;
-    margin-top: 2.5em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 10em; }
+.btn-educheque {
+  color: #fff;
+  background-color: #ee826c;
+  border-color: #BB3912; }
 
-.footer {
-  background: #ee826c; }
-  .footer p {
-    display: inline-block;
-    font-size: 2.5em;
-    font-family: "Roboto Slab", serif;
-    margin: 2.5em;
-    color: #fff; }
+.container {
+  margin-bottom: 40px; }
+
+.logo {
+  height: 30px; }
+
+.sinmargen {
+  margin-bottom: 0px; }
+
+.fondo {
+  position: absolute;
+  z-index: -1000; }
+
+@media(max-width:610px) {
+  .img {
+    width: 40%;
+    height: 40%; }
+
+  .ti {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=estilos.css.map */

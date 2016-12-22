@@ -1,156 +1,67 @@
-$font-family: 'Roboto Slab', serif
-$primary: #ee826c
-$hoverprimary: #f08c6c
-$sprimary: #00b8a9
+.navbar-inverse
+	background-color: #ee826c
+	border-color: #BB3912
+	.navbar-toggle
+		border-color: #fff
+		color: #fff
+		&:hover
+			background: #ee826c !important
+		&:focus
+			background: #ee826c !important
 
-	
-
-*
-	padding: 0
-	margin: 0
-
-body
-	width: 100%
-	margin: auto
-	cursor: context-menu
-
-header
-	background: $primary
-	width: 100%
-	top: 0
-	position: fixed
-	z-index: 1000
-
-	.logo
-		float: left
-		.img_logo
-			height: auto
-			width: 75%
-			display: block
-			margin-top: 20px
-			margin-left: 20%
-			cursor: context-menu
-		
-
-	nav
-		float: right
-
-		.navegador
-			li
-				list-style: none
-				display: inline-block
-				padding: 35px
-				
-				a
-					color: #fff
-					font-size: 3em 
-					text-decoration: none
-					font-family: $font-family
-					cursor: context-menu
+	.navbar-collapse
+		border-color: #fff
+	.navbar-form
+		border-color: #fff
+	.navbar-brand
+		color: #fff
+		&:hover
+			color: #2c3e50
+	.navbar-nav
+		.active
+			a
+				background: #EE7824
+				&:focus
+					background: #EE7824
 				&:hover
-					background: $hoverprimary
-
-.main
-	width: 100%
-	max-width: 2000px
-	font-family: $font-family
-	margin: auto
-	.title
-		.ti
-			margin-top: 200px
-			display: block
-			position: relative
-			font-size: 3em
-			color: $sprimary
-			text-align: center
-
-		img
-			margin: 150px auto
-			display: block
-			width: 25%
-			height: 25%
-		.btn_accion
-			text-align: center
-			font-size: 3em
-			list-style: none
-			margin-bottom: 10em 
+					background: #EE7824
+		li
 			a
 				color: #fff
-				background: $primary
-				text-decoration: none
-				padding: 30px
 				&:hover
-					background: $hoverprimary
-.funciones
+					color: #2c3e50 
+header
+	padding-top: 70px
+.img
+	width: 20%
+	height: 20%
+.ti
+	color: #fff
+	font-size: 3em
+	text-shadow: 0px 0px 4px #ee826c, 0px 0px 30px black
+.main
+	background: #ee826c
+	color: #fff
+.btn-educheque 
+	color: #fff
+	background-color: #ee826c
+	border-color: #BB3912
+.container
+	margin-bottom: 40px
+.logo
+	height: 30px
+.sinmargen
+	margin-bottom: 0px
+.fondo
+	position: absolute
+	z-index: -1000
 
-	.titulo
-		text-align: center
-		color: $sprimary
-		font-size: 4em
-
-	.left
-		float: left
-		width: 33%
-		font-family: $font-family
-		h1
-			color: $sprimary
-			font-size: 3em
-			text-align: center
-			margin-top: 3em
-
-		p
-			text-align: justify
-			font-size: 2em
-			margin-top: 2.5em
-			margin-left: 1em
-			margin-right: 1em
-			margin-bottom: 10em 
-	.center
-		width: 33%
-		font-family: $font-family
-		display: inline-block
-		h1
-			color: $sprimary
-			font-size: 3em
-			text-align: center
-			margin-top: 3em
-		p
-			text-align: justify
-			font-size: 2em
-			margin-top: 2.5em
-			margin-left: 1em
-			margin-right: 1em
-			margin-bottom: 10em 
-	.right
-		float: right
-		width: 33%
-		font-size: $font-family
-		h1
-			color: $sprimary
-			font-size: 3em
-			text-align: center
-			margin-top: 3em
-		p
-			text-align: justify
-			font-size: 2em
-			margin-top: 2.5em
-			margin-left: 1em
-			margin-right: 1em
-			margin-bottom: 10em 
-
-.footer
-	background: $primary
-
-	p
-		display: inline-block
-		font-size: 2.5em
-		font-family: $font-family
-		margin: 2.5em
-		color: #fff
-
-
-
-
+@media(max-width:610px)
+	.img
+		width: 40%
+		height: 40%
+	.ti
+		font-size: 1.5em
 
 
 
