@@ -48,9 +48,6 @@ header {
   background-color: #ee826c;
   border-color: #BB3912; }
 
-.container {
-  margin-bottom: 40px; }
-
 .logo {
   height: 30px; }
 
@@ -61,7 +58,17 @@ header {
   position: absolute;
   z-index: -1000; }
 
-@media(max-width:610px) {
+header {
+  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.margin {
+  padding-bottom: 40px; }
+
+@media(max-width:768px) {
   .img {
     width: 40%;
     height: 40%; }
