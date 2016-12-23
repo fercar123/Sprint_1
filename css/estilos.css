@@ -49,24 +49,27 @@ header {
   border-color: #BB3912; }
 
 .logo {
-  height: 30px; }
+  height: 25px; }
 
 .sinmargen {
   margin-bottom: 0px; }
 
-.fondo {
-  position: absolute;
-  z-index: -1000; }
-
 header {
-  background: url(../img/fondo.jpg) no-repeat center center fixed;
+  background: url(../img/fondo.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover; }
 
 .margin {
-  padding-bottom: 40px; }
+  padding-top: 150px;
+  padding-bottom: 150px; }
+
+footer {
+  background: #00b8a9;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 @media(max-width:768px) {
   .img {

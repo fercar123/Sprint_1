@@ -1,20 +1,24 @@
+$secundary-color: #00b8a9
+$text-color: #fff
+$primary-color: #ee826c
+$border-color: #BB3912
 .navbar-inverse
-	background-color: #ee826c
-	border-color: #BB3912
+	background-color: $primary-color
+	border-color: $border-color
 	.navbar-toggle
-		border-color: #fff
-		color: #fff
+		border-color: $text-color
+		color: $text-color
 		&:hover
-			background: #ee826c !important
+			background: $primary-color !important
 		&:focus
-			background: #ee826c !important
+			background: $primary-color !important
 
 	.navbar-collapse
-		border-color: #fff
+		border-color: $text-color
 	.navbar-form
-		border-color: #fff
+		border-color: $text-color
 	.navbar-brand
-		color: #fff
+		color: $text-color
 		&:hover
 			color: #2c3e50
 	.navbar-nav
@@ -27,7 +31,7 @@
 					background: #EE7824
 		li
 			a
-				color: #fff
+				color: $text-color
 				&:hover
 					color: #2c3e50 
 header
@@ -36,35 +40,40 @@ header
 	width: 20%
 	height: 20%
 .ti
-	color: #fff
+	color: $text-color
 	font-size: 3em
 	text-shadow: 0px 0px 4px #ee826c, 0px 0px 30px black
 .main
-	background: #ee826c
-	color: #fff
+	background: $primary-color
+	color: $text-color
 	
 .btn-educheque 
-	color: #fff
-	background-color: #ee826c
-	border-color: #BB3912
+	color: $text-color
+	background-color: $primary-color
+	border-color: $border-color
 
 	
 .logo
 	height: 30px
 .sinmargen
 	margin-bottom: 0px
-.fondo
-	position: absolute
-	z-index: -1000
+
 
 header
-	background: url(../img/fondo.jpg) no-repeat center center fixed
+	background: url(../img/fondo.jpg) no-repeat center center 
 	-webkit-background-size: cover
 	-moz-background-size: cover
 	background-size: cover
 	-o-background-size: cover
 .margin
-	padding-bottom: 40px
+	padding-top: 150px
+	padding-bottom: 150px
+footer
+	background: $secundary-color
+	color: $text-color
+	padding-top: 50px
+	padding-bottom: 50px
+
 	
 
 
